@@ -11,7 +11,7 @@ export const initState:State = {
     todos: []
 }
 
-function list(state: State = initState, action: Action) {
+export function list(state: State = initState, action: Action) {
     switch(action.type) {
     case 'add':
         return {
@@ -24,7 +24,5 @@ function list(state: State = initState, action: Action) {
     }
 }
 
-export const reducer = combineReducers({
-    todos: list
-})
+
 

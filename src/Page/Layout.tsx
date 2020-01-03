@@ -1,8 +1,10 @@
-import * as React from 'react'
-
+import React, { lazy, Suspense  } from 'react'
+import { useHistory } from 'react-router-dom'
+import Home from './Home'
 function Layout() {
+    
     return (<>
-        layout
+        <Home />
     </>)
 }
 

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "set B_A=1&& react-ts build",
-    "dev": "set PORT=3002&& react-ts start"
+    "dev": "set PORT=3002&& react-ts start",
+    "test": "react-ts test"
   },
   "author": "",
   "license": "ISC",
@@ -85,10 +86,13 @@
   "dependencies": {
     "@types/react-redux": "^7.1.5",
     "@types/react-router-dom": "^5.1.3",
+    "@types/single-spa-react": "^2.8.3",
     "axios": "^0.19.0",
     "codemirror": "5.x",
+    "immer": "^5.1.0",
     "react-codemirror2": "^6.0.0",
     "react-redux": "^7.1.3",
-    "react-router-dom": "^5.1.2"
+    "react-router-dom": "^5.1.2",
+    "single-spa-react": "^2.11.0"
   }
 }
