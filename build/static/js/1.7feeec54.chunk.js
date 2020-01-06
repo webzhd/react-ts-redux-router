@@ -1,2 +1,0 @@
-(this["webpackJsonpreact-ts-template"]=this["webpackJsonpreact-ts-template"]||[]).push([[1],{280:function(e,t,n){"use strict";n.r(t);var a=n(0),r=n.n(a);var l=function(){return a.createElement(a.Fragment,null,"Home")};t.default=function(){return r.a.createElement(r.a.Fragment,null,r.a.createElement(l,null))}}}]);
-//# sourceMappingURL=1.7feeec54.chunk.js.map

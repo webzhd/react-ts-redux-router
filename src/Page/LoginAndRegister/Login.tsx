@@ -17,7 +17,7 @@ function Login(props: FormComponentProps) {
                     const token: string = 'test'
                     dispatch(login(values.username, token))
                     history.push('/')
-                })
+                }, 300)
             }
         })
     }
